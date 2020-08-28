@@ -1,0 +1,30 @@
+{
+    "name": "ivatsko/check-user",
+    "description": "Check field user",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "require": {
+        "magento/framework": "102.0.*",
+        "php": "~7.1.3||~7.2.0||~7.3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ivatsko\\CheckCreateCustomer\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    },
+    "extra": {
+        "map": [
+            [
+                "*",
+                "Ivatsko/CheckCreateCustomer"
+            ]
+        ]
+    }
+}
